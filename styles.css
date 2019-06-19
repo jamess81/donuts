@@ -8,6 +8,7 @@
 body {
 font-size: 18px;
 color: #232323;
+width: auto;
 
 
 }
@@ -58,7 +59,7 @@ p {
 }
 
 span {
-  color: #EDDAEC;
+  color: #F9E7F9;
 }
 
 header {
@@ -195,12 +196,7 @@ padding: 100px 0px 100px 0px;
                          color 0.2s ease-out;!important;
 }
 
-.hero_logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 665px;
-}
+
 
 
 
@@ -214,14 +210,17 @@ padding: 100px 0px 100px 0px;
 
 .main_content {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
 
 }
 
 
 
 .main_text {
-  width: 65%;
   display: flex;
+  flex: 1 2 450px;
   flex-direction: column;
 
 
@@ -229,16 +228,16 @@ padding: 100px 0px 100px 0px;
 }
 
 
-
 .main_image{
-  width: 35%;
   display: flex;
-  justify-content: flex-end;
+  padding-left: 50px;
 }
 
 .main_image img{
   height: 220px;
   border-radius: 10px;
+
+
 }
 
 footer {
@@ -259,3 +258,47 @@ footer p {
 {text-align:right;height:500px;width:100%; }
 
 .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%; border-radius:  10px;}
+
+@media screen and (max-width: 1400px) {
+  .main_container {
+    width: 100%;
+
+  }
+
+  .main_container {
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+
+
+  .nav_container {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .main_image{
+
+      padding-left: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .hero_container   {
+      width: 80%;
+      margin: 0px auto;
+      padding: 40px 0px 40px 0px;
+    }
+
+  }
