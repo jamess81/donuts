@@ -9,6 +9,7 @@ body {
 font-size: 18px;
 color: #232323;
 width: auto;
+font-weight: 200;
 
 
 }
@@ -38,12 +39,14 @@ h2 {
   font-size: 1.5em;
   color: #81007f;
   padding-bottom: 30px;
+  font-weight: 400;
 }
 
 h3 {
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.17em;
+  font-weight: 400;
 
 }
 
