@@ -274,8 +274,12 @@ footer p {
 
 
   .nav_container {
-    width: 90%;
+    width: 200px;
     margin: 0px auto;
+    height: auto;
+    align-items: right;
+    text-align:right;
+
   }
 
 
@@ -290,6 +294,13 @@ footer p {
       padding-left: 0px;
 
     }
+
+
+    .nav_container{
+    display: none;
+  }
+
+
 
 }
 
