@@ -2,17 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: solid red 1px; */
+ /* border: solid red 1px; */
 }
 
 body {
 font-size: 18px;
 color: #232323;
 width: auto;
-font-weight: 200;
+font-weight: 400;
 
 
 }
+
+
 
 
 .odd {
@@ -29,8 +31,10 @@ background-attachment: fixed;
 
 .hero {
   height: 500px;
-  background-image: url("animal-collar-dog.jpg")
-
+  background-image: url("doghero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -38,7 +42,7 @@ h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5em;
   color: #81007f;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   font-weight: 700;
 }
 
@@ -46,6 +50,7 @@ h3 {
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.17em;
+  font-weight: bold;
   font-weight: 700;
 
 }
@@ -57,7 +62,7 @@ font-family: 'Roboto Slab', serif;
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 
 }
 
@@ -113,9 +118,6 @@ nav img {
 
 }
 
-.hero img {
-  height: 350px;
-}
 
 .hero h2 {
   color: white;
@@ -125,7 +127,7 @@ nav img {
 
 nav li {
   flex-grow: 1;
-  padding: 34px 0px 34px 0px;
+  padding: 34px 0px 35px 0px;
 }
 
 .logo {
@@ -207,9 +209,20 @@ padding: 100px 0px 100px 0px;
 .main_container {
   width: 1330px;
   margin: 0px auto;
-  padding: 60px 0px 60px 0px;
+  padding: 35px 0px 35px 0px;
+
 
 }
+
+.target {
+  padding-top: 94px;
+   margin-top: -94px;
+   display: inline-block;
+
+
+}
+
+
 
 .main_content {
   display: flex;
@@ -274,16 +287,13 @@ footer p {
 
 }
 
+.nav_container{
 
+  width: 90%;
+  margin: 0px auto;
 
-  .nav_container {
-    width: 200px;
-    margin: 0px auto;
-    height: auto;
-    align-items: right;
-    text-align:right;
+}
 
-  }
 
 
 
@@ -298,21 +308,38 @@ footer p {
 
     }
 
+.nav_container{
+  font-size: 0.9em;
 
-    .nav_container{
-    display: none;
+    flex-wrap: wrap;
   }
-
 
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 576px) {
 
     .hero_container   {
       width: 80%;
       margin: 0px auto;
       padding: 40px 0px 40px 0px;
     }
+
+    .nav_container{
+      font-size: 0.7em;
+      flex-flow: row wrap;
+
+
+      }
+
+      nav li {
+        flex-grow: 1;
+        padding: 10px 10px 10px 10px;
+      }
+
+      nav img {
+        height: 32px;
+
+      }
 
   }
