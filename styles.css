@@ -31,7 +31,7 @@ background-attachment: fixed;
 
 .hero {
   height: 500px;
-  background-image: url("doghero2.jpg");
+  background-image: url("doghero.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -71,9 +71,10 @@ span {
 }
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0px;
   background-color: #fafafa;
+  width: 100%;
 }
 
 
