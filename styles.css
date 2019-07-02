@@ -31,7 +31,7 @@ background-attachment: fixed;
 
 .hero {
   height: 500px;
-  background-image: url("doghero2.jpg");
+  background-image: url("doghero.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -113,11 +113,17 @@ nav li:hover{
 
 
 nav img {
-  height: 63px;
+  height: 94px;
   display: flex;
   justify-content: flex-end;
 
+
 }
+
+nav img:hover{
+  background-color: #f5f5f5;
+}
+
 
 
 .hero h2 {
@@ -137,6 +143,9 @@ nav li {
   justify-content: flex-start;
 
 }
+
+
+
 
 
 
@@ -342,5 +351,7 @@ footer p {
         height: 32px;
 
       }
+
+  }
 
   }
