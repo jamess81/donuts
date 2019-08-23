@@ -409,7 +409,7 @@ footer a:hover {
 
   .hero {
     background-image: url("doghero3.jpg");
-
+	background-size: cover;  
     height: 544px;
   }
 
