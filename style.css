@@ -110,7 +110,7 @@ nav li:hover {
 }
 
 nav img {
-	height: 94px;
+	height: 64px;
 	display: flex;
 	justify-content: flex-end;
 }
