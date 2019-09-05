@@ -372,6 +372,10 @@ footer a:hover {
 				width: 33%;
 			}
 			
+			nav li {
+			flex-grow: 1;
+			padding: 5px 10px 5px 10px;
+			
 			.contact, .donate {
 				width: 50%;
 				padding-top: 0px;
