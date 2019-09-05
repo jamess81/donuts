@@ -363,11 +363,18 @@ footer a:hover {
 
 		@media screen and (max-width: 640px) {
 
+			
       .hero {
   			background-image: url("doghero3.jpg");
   			height: 544px;
   			background-size: cover;
       }
+			
+			.main_image img {
+          		width: 100%;
+         		 height: auto;
+
+       			 }
 
     	.nav_container li {
 				width: 33%;
