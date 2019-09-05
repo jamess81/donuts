@@ -321,7 +321,13 @@ footer a:hover {
 	.nav_container {
 		flex-wrap: wrap;
 	}
-
+	
+	footer {
+		margin: 5px 0px 5px 0px;
+		
+	}
+		
+		
 	footer p {
 		padding: 10px 1em 10px 0px;
 		font-size: 0.8em;
