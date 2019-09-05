@@ -223,7 +223,7 @@ nav img:hover {
 }
 
 .main_image img {
-	height: 220px;
+	height: auto;
 	border-radius: 10px;
 }
 
@@ -384,7 +384,7 @@ footer a:hover {
 				
 			
 			.donate a {
-				background: #ffffff !important;
+				background: #fafafa !important;
 				color:   #81007f !important;
 				padding: 0px !important;
 				border-radius: 0px !important;
