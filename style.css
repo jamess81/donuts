@@ -113,7 +113,6 @@ nav img {
 	height: 94px;
 	display: flex;
 	justify-content: flex-end;
-	height: 64px;
 }
 
 .hero h2 {
@@ -365,17 +364,32 @@ footer a:hover {
     	.nav_container li {
 				width: 30%;
 			}
+			
 			.contact, .donate {
 				width: 50%;
 				padding-top: 0px;
 				padding-bottom: 5px;
 			}
+			
+			nav li {
+
+			padding: 5px 10px 5px 10px;
+		}
+		nav img {
+			height: 22px;
+		}
+			
+			
+			
+			
+			
+			
 			.donate a {
 				background: #ffffff !important;
 				color:   #81007f !important;
 				padding: 0px !important;
 				border-radius: 0px !important;
-}
+			}
 			.main_image img {
 				width: 100%;
 			}
