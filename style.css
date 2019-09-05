@@ -328,6 +328,10 @@ footer a:hover {
 	.nav_container {
 		flex-wrap: wrap;
 	}
+	
+	footer {
+	padding: 5px 0px 5px 0px;
+	}
 
 	footer p {
 		padding: 5px 0px 5px 20px;
