@@ -290,15 +290,20 @@ footer a:hover {
 	.footer_content {
 		width: 90%;
 		margin: 0px auto;
+		
+		
+	
 	}
+	footer p {
+		padding-right: 1em;
+	}
+	
 	
 	.hero {
 
 	background-attachment: scroll;
 	background-size: cover;
 	}
-	
-	
 }
 
 
@@ -317,20 +322,15 @@ footer a:hover {
 
 	.main_image {
 		padding-left: 0px;
+		padding-bottom: 25px;
 	}
 
 	.nav_container {
 		flex-wrap: wrap;
 	}
-	
-	footer {
-		padding: 5px 0px 5px 0px;
-		
-	}
-		
-		
+
 	footer p {
-		padding: 10px 1em 10px 0px;
+		padding: 5px 0px 5px 20px;
 		font-size: 0.8em;
 	}
 
@@ -363,18 +363,11 @@ footer a:hover {
 
 		@media screen and (max-width: 640px) {
 
-			
       .hero {
   			background-image: url("doghero3.jpg");
   			height: 544px;
   			background-size: cover;
       }
-			
-			.main_image img {
-          		width: 100%;
-         		 height: auto;
-
-       			 }
 
     	.nav_container li {
 				width: 33%;
@@ -396,7 +389,11 @@ footer a:hover {
 				padding: 0px !important;
 				border-radius: 0px !important;
 			}
-			
+			.main_image img {
+				width: auto ;
+  				max-width: 100% ;
+  				height: auto ;
+			}
 
     }
 			@media screen and (max-width: 440px) {
