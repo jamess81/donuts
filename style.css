@@ -300,6 +300,9 @@ footer a:hover {
 	
 	.main_image img {
 	background-attachment:scroll;
+	width: 100%;
+   	height: auto;      
+		
 	}
 	
 }
