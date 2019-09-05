@@ -297,6 +297,13 @@ footer a:hover {
 	footer p {
 		padding-right: 1em;
 	}
+	
+	
+	.hero {
+
+	background-attachment: scroll;
+	background-size: cover;
+}
 }
 
 
