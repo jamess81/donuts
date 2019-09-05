@@ -389,7 +389,7 @@ footer a:hover {
 				padding: 0px !important;
 				border-radius: 0px !important;
 			}
-			.main_image img {
+			.main_image {
 				width: auto ;
   				max-width: 100% ;
   				height: auto ;
