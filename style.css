@@ -373,6 +373,10 @@ footer a:hover {
   			background-size: cover;
       }
 
+	.nav_container {
+			height: 82px;
+			}
+			
     	.nav_container li {
 				width: 33%;
 			}
